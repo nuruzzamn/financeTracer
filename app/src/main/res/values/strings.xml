@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FinanceTracer</string>
+    <string name="no_account_yet_sing_up">No account yet?   SING UP</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+
+</resources>

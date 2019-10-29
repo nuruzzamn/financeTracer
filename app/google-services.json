@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "29939868440",
+    "firebase_url": "https://financetracer.firebaseio.com",
+    "project_id": "financetracer",
+    "storage_bucket": "financetracer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29939868440:android:b96b37385d5343a3",
+        "android_client_info": {
+          "package_name": "diu.xm.example.com.financetracer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29939868440-9pit1do1lttubqdsldqf3a77s5vv8osr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "diu.xm.example.com.financetracer",
+            "certificate_hash": "af67afc8656cb60eb011d4e037e61bb49ada01dc"
+          }
+        },
+        {
+          "client_id": "29939868440-glrstnvhmrt53j7b83il6k6nddgfike0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTle2RMjjqs2clrFfv45gHEXd5KZVVFdE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29939868440-glrstnvhmrt53j7b83il6k6nddgfike0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

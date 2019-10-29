@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/white_instagram_text_logo1" />
+    -->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#cccccc">
+
+        <EditText
+            android:id="@+id/signInName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:drawableLeft="@drawable/user"
+            android:hint="     Email"
+            android:inputType="textPersonName"
+            android:textColor="#cccccc"
+            android:textSize="20sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#cccccc">
+
+        <EditText
+            android:id="@+id/signInPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:drawableLeft="@drawable/lock"
+            android:hint="     Passwoard"
+            android:inputType="textPassword"
+            android:textColor="#cccccc"
+            android:textSize="20sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/logInId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#79a209df"
+        android:text="Log In"
+        android:textColor="#cccccc"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:text="@string/no_account_yet_sing_up"
+        android:textColor="#cccccc"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

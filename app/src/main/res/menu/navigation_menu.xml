@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/addCustomer"
+            android:title="Add New Customer"
+            android:icon="@drawable/addcustomer"
+            />
+        <item
+            android:id="@+id/logOut"
+            android:title="Log Out"
+            android:icon="@drawable/logout"
+            />
+    </group>
+
+
+
+</menu>
